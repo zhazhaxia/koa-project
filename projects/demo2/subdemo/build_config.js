@@ -9,6 +9,6 @@ module.exports = {
 	},
 	tpl:{
 		name:'index.html',
-		entry:'tpl.js',
+		entry:'tpl.ejs',
 	}
 }

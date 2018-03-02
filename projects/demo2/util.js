@@ -9,6 +9,6 @@ import util3 from './util3'
 
 export default {
 	get(){
-		return util3.get()+'!!!1111111'
+		return util3.get()+'!!!1111111----'
 	}
 }

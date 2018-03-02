@@ -92,7 +92,7 @@ console.log(__WEBPACK_IMPORTED_MODULE_0__util__["a" /* default */].get())
 
 /* harmony default export */ __webpack_exports__["a"] = ({
 	get(){
-		return __WEBPACK_IMPORTED_MODULE_0__util3___default.a.get()+'!!!1111111'
+		return __WEBPACK_IMPORTED_MODULE_0__util3___default.a.get()+'!!!1111111----'
 	}
 });
 
