@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Language" content="zh-cn" />
+  <meta name="author" content="Tencent-ISUX-Music" />
+  <meta name="Copyright" content="Tencent" />
+  <!--关键字和描述一定要写-->
+  <meta name="description" content="description" />
+  <meta name="keywords" content="keywords" />
+  <!--如果该页面只适合在手机上进行浏览，请添加以下代码-->
+  <meta name="applicable-device" content="mobile">
+  <%- data.headHTML || '' %>
+  <!--iphoneX 底部样式适配:(仅iphonex会识别)安全区增加间距。避免操作放在了iphone的home区域-->
+  <style>
+  html{padding-bottom:constant(safe-area-inset-bottom);padding-bottom:env(safe-area-inset-bottom);}
+  </style>
+</head>
+<body>
+  <p>这是静态页</p>
+
+  <%- data.footHTML || '' %>
+</body>
+</html>
