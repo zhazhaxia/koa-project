@@ -18,4 +18,4 @@ app.use(async (ctx) => {
 app.listen(3030)
 console.log('server run on port:3030')
 
-// require('./scripts/gulp_watch')
+require('./scripts/gulp_watch')
