@@ -4,7 +4,7 @@
   "description": "koa server test",
   "main": "index.js",
   "scripts": {
-    "server": "node app.js",
+    "server": "supervisor app.js",
     "project": "supervisor ./scripts/gulp_watch.js"
   },
   "keywords": [
