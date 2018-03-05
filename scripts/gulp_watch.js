@@ -38,5 +38,6 @@ projects_watch.on('change', function(event) {
 let projects_node_watch = gulp.watch([PROJECT_HOME+'projects_node/**/*.js',PROJECT_HOME+'projects_node/*/*.ejs'])
 projects_node_watch.on('change', function(event) {
 	let nowPath = path.resolve(event.path,'..')
-	console.log(nowPath)
+	let	configFile = util.getConfig(nowPath)
+	console.log(configFile)
 })

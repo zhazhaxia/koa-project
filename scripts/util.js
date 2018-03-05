@@ -19,8 +19,8 @@ module.exports = {
 		if (fs.existsSync(path.join(p,'build_config.js'))) {
 			return path.join(p,'build_config.js')
 		}
-		if (p.match(/projects[\\\/]?$/ig)||count>3) {
-			console.log('mmmmmmmmmm',p.match(/projects[\\\/]?$/ig))
+		if (p.match(/(projects|projects_node)[\\\/]?$/ig)||count>3) {
+			console.log('mmmmmmmmmm',p.match(/(projects|projects_node)[\\\/]?$/ig))
 			return false
 		}
 		return this.isBuildConfigExit(path.resolve(p,'../'))
