@@ -1,4 +1,3 @@
-module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,22 +69,18 @@ module.exports =
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tpl_ejs__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tpl_ejs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__tpl_ejs__);
-// import tpl from 'ejs-loader!./tpl.ejs'
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__get__ = __webpack_require__(1);
 
-// var a = require('./tpl.ejs')
- // var a = require('ejs-loader!./tpl.ejs');
-console.log(Object(__WEBPACK_IMPORTED_MODULE_0__tpl_ejs__["default"])({}))
-/* harmony default export */ __webpack_exports__["default"] = (function (ctx) {
-	ctx.body = `demo 2`
-});
+console.log(Object(__WEBPACK_IMPORTED_MODULE_0__get__["a" /* default */])())
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module parse failed: D:\\github\\koa-project\\projects_node\\demo2\\tpl.ejs Unexpected token (1:0)\nYou may need an appropriate loader to handle this file type.\n| <!DOCTYPE html>\r\n| <html lang=\"zh-cn\">\r\n| <head>\r");
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = (function(){
+	return 'test....'
+});
 
 /***/ })
 /******/ ]);

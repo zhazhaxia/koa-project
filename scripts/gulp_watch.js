@@ -49,7 +49,6 @@ projects_node_watch.on('change', function(event) {
 	}
 
 	//打包server
-	//打包js
 	pack.packServerJs({
 		entryPath,
 		outputPath,
@@ -61,6 +60,29 @@ projects_node_watch.on('change', function(event) {
 			// 	outputPath:path.join(BAEE_DIR,`../output/static/${project}/${configFile.tpl.name}`),
 			// 	entryPath:path.join(BAEE_DIR,`../projects/${project}/${configFile.tpl.entry}`)
 			// })
+
 		}
 	})
+	//打包js 如果存在
+	if (configFile.client) {
+		let entryPath = path.join(BAEE_DIR,`../projects_node/${project}/${configFile.client.entry}`)
+		let outputPath = path.join(BAEE_DIR,`../output/static/${project}_node/`)
+		if (!fs.existsSync(outputPath)) {//output路径不存在
+			 fs.mkdirSync(outputPath)
+		}
+		pack.packJs({
+			entryPath,
+			outputPath,
+			project,
+			callback(){
+				console.log('pack clinet done!!!')
+				// pack.packHtml({
+				// 	project,
+				// 	outputPath:path.join(BAEE_DIR,`../output/static/${project}/${configFile.tpl.name}`),
+				// 	entryPath:path.join(BAEE_DIR,`../projects/${project}/${configFile.tpl.entry}`)
+				// })
+
+			}
+		})
+	}
 })

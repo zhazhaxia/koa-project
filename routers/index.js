@@ -2,12 +2,12 @@ const path = require('path')
 const fs = require('fs')
 const Router = require('koa-router')
 const router = new Router()
-const test = require('./test')
+// const test = require('./test')
 // const login = require('./login')
-const asyncPage = require('./async-page')
+// const asyncPage = require('./async-page')
 
-router.get('/router/test', test)
-router.get('/router/async-page',asyncPage)
+// router.get('/router/test', test)
+// router.get('/router/async-page',asyncPage)
 // router.post('/router/login', login)
 
 //项目直出路由
