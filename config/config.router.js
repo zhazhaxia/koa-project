@@ -9,12 +9,12 @@ module.exports = [
 		name:'demo1测试',
 		routerName:'/node/demo1',
 		routerPath:'/demo1',
-		routerFile:'server.js',
+		routerFile:'index.js',
 	},
 	{
 		name:'测试demo2',
 		routerName:'/node/demo2',
 		routerPath:'/demo2',
-		routerFile:'server.js',
+		routerFile:'index.js',
 	},
 ]

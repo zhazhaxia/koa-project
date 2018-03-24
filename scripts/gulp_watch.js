@@ -16,7 +16,7 @@ projects_watch.on('change', function(event) {
 	// console.log('change path=====',path.resolve(event.path,'..'),configFile)
 	let project = configFile.base//当前改变的项目
 	let entryPath = path.join(BAEE_DIR,`../projects/${project}/${configFile.client.entry}`)
-	let outputPath = path.join(BAEE_DIR,`../output/${project}/`)
+	let outputPath = path.join(BAEE_DIR,`../output/static/${project}/`)
 	if (!fs.existsSync(outputPath)) {//output路径不存在
 		 fs.mkdirSync(outputPath)
 	}
@@ -28,7 +28,7 @@ projects_watch.on('change', function(event) {
 		callback(){
 			pack.packHtml({
 				project,
-				outputPath:path.join(BAEE_DIR,`../output/${project}/${configFile.tpl.name}`),
+				outputPath:path.join(BAEE_DIR,`../output/static/${project}/${configFile.tpl.name}`),
 				entryPath:path.join(BAEE_DIR,`../projects/${project}/${configFile.tpl.entry}`)
 			})
 		}
@@ -40,4 +40,27 @@ projects_node_watch.on('change', function(event) {
 	let nowPath = path.resolve(event.path,'..')
 	let	configFile = util.getConfig(nowPath)
 	console.log(configFile)
+
+	let project = configFile.base//当前改变的项目
+	let entryPath = path.join(BAEE_DIR,`../projects_node/${project}/${configFile.server.entry}`)
+	let outputPath = path.join(BAEE_DIR,`../output/node/${project}/`)
+	if (!fs.existsSync(outputPath)) {//output路径不存在
+		 fs.mkdirSync(outputPath)
+	}
+
+	//打包server
+	//打包js
+	pack.packServerJs({
+		entryPath,
+		outputPath,
+		project,
+		callback(){
+			console.log('pack server done!!!')
+			// pack.packHtml({
+			// 	project,
+			// 	outputPath:path.join(BAEE_DIR,`../output/static/${project}/${configFile.tpl.name}`),
+			// 	entryPath:path.join(BAEE_DIR,`../projects/${project}/${configFile.tpl.entry}`)
+			// })
+		}
+	})
 })

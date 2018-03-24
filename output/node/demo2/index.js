@@ -1,3 +1,4 @@
+module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -69,45 +70,10 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(1);
 
-
-console.log(__WEBPACK_IMPORTED_MODULE_0__util__["a" /* default */].get())
-
-/***/ }),
-/* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util3__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__util3__);
-// 注意 webpack中，import 跟 module.exports不能混用。用export default代替
-
-// var util3  = require('./util3')
-// module.exports = {
-// 	get(){
-// 		return util3.get()+'!!!1111111'
-// 	}
-// }
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-	get(){
-		return __WEBPACK_IMPORTED_MODULE_0__util3___default.a.get()+'!!!1111111----'
-	}
+/* harmony default export */ __webpack_exports__["default"] = (function (ctx) {
+	ctx.body = `demo 2`
 });
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-module.exports = {
-	get(){
-		return '333333'
-	}
-}
-// export default function get(){
-// 	return '333'
-// }
 
 /***/ })
 /******/ ]);

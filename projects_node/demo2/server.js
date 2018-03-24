@@ -1,4 +1,4 @@
 
-module.exports = function (ctx) {
+export default function (ctx) {
 	ctx.body = `demo 2`
 }
