@@ -53,15 +53,17 @@ module.exports = {
 				        	loader: 'babel-loader'
 				      	}]
 				    },
-					{
+				    {test: /\.ejs$/, loader: 'ejs-loader'}
+					// {
 					// 	test:'/\.ejs$/',
 					// 	use:[{
 					// 		loader:'ejs-loader',
-					// 		options: { 
-		   //                  	variable: 'data', 
-			  //                   interpolate : '\\{\\{(.+?)\\}\\}', 
-			  //                   evaluate : '\\[\\[(.+?)\\]\\]' 
-			  //               }
+					// 		// loader:'ejs-complied-loader',
+					// 		// options: { 
+		   //   //                	variable: 'data', 
+			  //   //                 interpolate : '\\{\\{(.+?)\\}\\}', 
+			  //   //                 evaluate : '\\[\\[(.+?)\\]\\]' 
+			  //   //             }
 					// 	}],
 					// }
 				]
