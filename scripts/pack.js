@@ -48,7 +48,7 @@ module.exports = {
 			module:{
 				rules : [
 					{
-						test:'/\.ejs/',
+						test:'/\.ejs$/',
 						use:'ejs-loader',
 					}
 				]
