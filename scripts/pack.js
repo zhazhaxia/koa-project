@@ -53,7 +53,10 @@ module.exports = {
 				        	loader: 'babel-loader'
 				      	}]
 				    },
-				    {test: /\.ejs$/, loader: 'ejs-loader'}
+				    {
+				    	test: /\.ejs$/, 
+				    	loader: 'ejs-loader'
+				    }
 					// {
 					// 	test:'/\.ejs$/',
 					// 	use:[{
