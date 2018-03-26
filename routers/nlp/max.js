@@ -14,6 +14,8 @@ function hasMatch(str,idx,len){
 
 module.exports = function (ctx) {
 	// console.log(dic)
+	// console.log(ctx)
+	ctx.set('Access-Control-Allow-Origin', '*');  
 	let str = ctx.query.w||'全幼儿园最可爱'
 
 	let maxLenth = 4,
