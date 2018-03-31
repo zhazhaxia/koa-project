@@ -12,3 +12,8 @@ build project quickly base on koa server
 // supervisor 本地代码测试的时候可以用
 
 
+
+
+### 参考
+
+http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
