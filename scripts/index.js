@@ -1,5 +1,21 @@
 #! /usr/bin/env node
 var yargs = require('yargs');
+var path = require('path');
+
+
+
+
+
+
+
+
+
+console.log()
+if (path.basename(path.resolve("./")) !== 'koa-project') {
+  console.log('ERROR','请在koa-project目录下执行此命令')
+  return;
+}
+
 
 var argv = yargs
 .command("run", '运行 test', function(yargs){
