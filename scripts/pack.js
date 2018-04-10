@@ -6,7 +6,7 @@ const host = 'http://127.0.0.1:3030'
 module.exports = {
 	packJs (opt={}) {
 		webpack({
-			// mode : 'development',//开发环境development,正式环境production//webpack4支持
+			mode : 'development',//开发环境development,正式环境production//webpack4支持
 	        entry : opt.entryPath,
 			output : {
 				path : opt.outputPath,
@@ -30,6 +30,63 @@ module.exports = {
 			    colors: true    // 在控制台展示颜色
 			}));
 			console.log('==============package JS ok===============')
+			// console.log(stats);
+			opt.callback&&opt.callback()
+			// console.log('error=====:',err,stats);
+	    });
+	},
+	packServerJs(opt={}){
+		webpack({
+			mode : 'development',//开发环境development,正式环境production//webpack4支持
+	        entry : opt.entryPath,
+			output : {
+				path : opt.outputPath,
+				filename : 'index.js',
+				libraryTarget: "commonjs2"
+			},
+			target:'node',
+			module:{
+				rules : [
+					{
+				      	test: /\.js$/,
+				      	use: [{
+				        	loader: 'babel-loader'
+				      	}]
+				    },
+				    {
+				    	test: /\.ejs$/, 
+				    	loader: 'ejs-loader'
+				    }
+					// {
+					// 	test:'/\.ejs$/',
+					// 	use:[{
+					// 		loader:'ejs-loader',
+					// 		// loader:'ejs-complied-loader',
+					// 		// options: { 
+		   //   //                	variable: 'data', 
+			  //   //                 interpolate : '\\{\\{(.+?)\\}\\}', 
+			  //   //                 evaluate : '\\[\\[(.+?)\\]\\]' 
+			  //   //             }
+					// 	}],
+					// }
+				]
+			},
+			// plugins: [
+			//     new webpack.ProvidePlugin({
+			//         _: "underscore"
+			//     })
+			// ]
+	    }, function(err, stats) {
+	    	if (err || stats.hasErrors()) {// 在这里处理错误
+				console.log('error=====:',err)
+			}else{
+				// console.log('package ok====')
+			}
+			console.log(stats.toString({
+			    chunks: false,  // 使构建过程更静默无输出
+			    colors: true    // 在控制台展示颜色
+			}));
+			console.log('==============package server JS ok===============')
 			// console.log(stats);
 			opt.callback&&opt.callback()
 			// console.log('error=====:',err,stats);

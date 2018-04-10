@@ -1,5 +1,5 @@
 module.exports = {
-	base:'demo1',
+	base:'demo2',
 	client:{
 		entry:'client.js',
 		require:[

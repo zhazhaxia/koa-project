@@ -1,3 +1,4 @@
+module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -67,7 +68,10 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-alert(8)
+
+module.exports = function (ctx) {
+	ctx.body = `demo 1111`
+}
 
 /***/ })
 /******/ ]);

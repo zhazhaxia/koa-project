@@ -44,6 +44,11 @@
 /******/ 		}
 /******/ 	};
 /******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
 /******/ 	__webpack_require__.n = function(module) {
 /******/ 		var getter = module && module.__esModule ?
@@ -59,55 +64,35 @@
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
+/******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./projects_node/demo2/client.js");
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ "./projects_node/demo2/client.js":
+/*!***************************************!*\
+  !*** ./projects_node/demo2/client.js ***!
+  \***************************************/
+/*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(1);
-
-
-console.log(__WEBPACK_IMPORTED_MODULE_0__util__["a" /* default */].get())
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _get__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./get */ \"./projects_node/demo2/get.js\");\n\r\nconsole.log(Object(_get__WEBPACK_IMPORTED_MODULE_0__[\"default\"])())\n\n//# sourceURL=webpack:///./projects_node/demo2/client.js?");
 
 /***/ }),
-/* 1 */
+
+/***/ "./projects_node/demo2/get.js":
+/*!************************************!*\
+  !*** ./projects_node/demo2/get.js ***!
+  \************************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util3__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__util3__);
-// 注意 webpack中，import 跟 module.exports不能混用。用export default代替
-
-// var util3  = require('./util3')
-// module.exports = {
-// 	get(){
-// 		return util3.get()+'!!!1111111'
-// 	}
-// }
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-	get(){
-		return __WEBPACK_IMPORTED_MODULE_0__util3___default.a.get()+'!!!1111111----'
-	}
-});
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-module.exports = {
-	get(){
-		return '333333'
-	}
-}
-// export default function get(){
-// 	return '333'
-// }
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(){\r\n\treturn 'test....'\r\n});\n\n//# sourceURL=webpack:///./projects_node/demo2/get.js?");
 
 /***/ })
-/******/ ]);
+
+/******/ });

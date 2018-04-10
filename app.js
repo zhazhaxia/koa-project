@@ -5,17 +5,17 @@ const router = require('./routers/index')
 const bodyParser = require('koa-bodyparser')
 
 app.use(bodyParser())
-app.use(static('./static'));//静态资源
-app.use(static('./output'));//静态资源
+// app.use(static('./static'));//静态资源
+app.use(static('./output/static'));//静态资源
 app
 .use(router.routes())
 .use(router.allowedMethods())
 
 app.use(async (ctx) => {
   ctx.status = 404
-  ctx.body = `404 Not Found `
+  ctx.body = `404 Not Found !!!`
 })
-app.listen(3030)
+app.listen(80)
 console.log('server run on port:3030')
 
-require('./scripts/gulp_watch')
+// require('./scripts/gulp_watch')
