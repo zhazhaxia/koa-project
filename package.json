@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "supervisor app.js",
-    "project": "supervisor ./scripts/gulp_watch.js"
+    "project": "supervisor ./scripts/gulp_watch.js",
+    "start": "node app.js"
   },
   "keywords": [
     "koa",

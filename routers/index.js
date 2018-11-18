@@ -8,7 +8,7 @@ const max = require('./nlp/max')
 const back = require('./nlp/back')
 // const asyncPage = require('./async-page')
 
-// router.get('/router/test', test)
+router.get('/router/test', test)
 // router.get('/router/async-page',asyncPage)
 // router.post('/router/login', login)
 router.get('/router/max', max)
