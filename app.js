@@ -5,7 +5,7 @@ const router = require('./routers/index')
 const bodyParser = require('koa-bodyparser')
 
 app.use(bodyParser())
-// app.use(static('./static'));//静态资源
+app.use(static('./static'));//静态资源
 app.use(static('./output/static'));//静态资源
 app
 .use(router.routes())
