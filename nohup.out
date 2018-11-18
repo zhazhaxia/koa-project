@@ -1,0 +1,1445 @@
+/data/koa-project/output/node/demo1/index.js
+/data/koa-project/output/node/demo2/index.js
+server run on port:3030
+events.js:182
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::80
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1305:14)
+    at listenInCluster (net.js:1353:12)
+    at Server.listen (net.js:1453:7)
+    at Application.listen (/data/koa-project/node_modules/koa/lib/application.js:64:19)
+    at Object.<anonymous> (/data/koa-project/app.js:18:5)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+/data/koa-project/output/node/demo1/index.js
+/data/koa-project/output/node/demo2/index.js
+server run on port:3030
+全/幼儿园/最/可爱/
+全/幼儿园/最/可爱/
+全/幼儿园/最/可爱/
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+全/幼儿园/最/可爱/
+全/幼儿园/最/可爱/
+?/?/?/?/¡/è/?/?/?/?/¨/¦/£/¤/-/?/o/?/?/?/?
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+今天/吃饭/了/吗
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: read ECONNRESET
+      at exports._errnoException (util.js:1026:11)
+      at TCP.onread (net.js:607:25)
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: read ECONNRESET
+      at exports._errnoException (util.js:1026:11)
+      at TCP.onread (net.js:607:25)
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: read ECONNRESET
+      at exports._errnoException (util.js:1026:11)
+      at TCP.onread (net.js:607:25)
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:412:20)
+      at emitNone (events.js:110:20)
+      at Socket.emit (events.js:207:7)
+      at endReadableNT (_stream_readable.js:1045:12)
+      at _combinedTickCallback (internal/process/next_tick.js:102:11)
+      at process._tickCallback (internal/process/next_tick.js:161:9)
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+
+
+  Error: Parse Error
+

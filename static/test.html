@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta name="format-detection"content="telephone=no">
+<title>今天是个好日子</title>
+<style>
+*{  padding: 0;
+    margin:0;
+}
+#frist{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(http://w.benbun.com/tencent/kaifangri/img/slick2.jpg);
+	background-size: 100% 100%;
+	background-position: top;
+	overflow: hidden;
+}
+#video_box{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(http://w.benbun.com/tencent/kaifangri/img/slick2.jpg);
+	background-size: 100% 100%;
+	background-position: top;
+	overflow: hidden;
+	display: none;
+}
+#video_all{
+  	position: absolute;
+  	width: 90%;
+  	top: 0;
+  	left: 5%;
+  	object-fit: fill;
+  	background-size: cover;
+  	overflow: hidden;
+}
+#btn,#againbtn{
+	width: 260px;height: 60px;
+	position: absolute;
+	top: 90%;
+	left:25%;
+	margin-top: -130px;
+	margin-left: -30px;
+	background-size: 100% 100%;
+	background-image: url(http://w.benbun.com/tencent/kaifangri/img/p1_tap.png);
+	background-size: 100% 100%;
+}
+#video_end{
+	position: absolute;
+	background-color: pink;
+	display: none;
+	background-size: 100% 100%;
+	background-image: url(last.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+</style>
+</head>
+<body>
+<!-- 最开始是暂停界面，手动控制视频的播放 -->
+<div id="frist"></div> 
+<!-- 视频播放区 -->
+<div id="video_box">
+   <video 
+    id="video_all" 
+    src="http://w.benbun.com/tencent/kaifangri/media/video1.mp4" 
+    poster="http://w.benbun.com/tencent/kaifangri/img/slick2.jpg"
+    autoplay="false" 
+    webkit-playsinline="true" 
+    playsinline="true" 
+    x-webkit-airplay="allow" 
+    x5-video-player-type="h5" 
+    x5-video-player-fullscreen="true" 
+    x5-video-orientation="portraint"
+    style="object-fit:fill">
+    </video> 
+<!--<video 
+    id="video_all" 
+    src="hello.mp4" 
+    poster="http://w.benbun.com/tencent/kaifangri/img/slick4.jpg" /*视频封面*/
+    autoplay="false" 
+    webkit-playsinline="true" /*这个属性是ios 10中设置可以让视频在小窗内播放,也就是不是全屏播放*/
+    playsinline="true" /*IOS微信浏览器支持小窗内播放*/ 
+    x-webkit-airplay="allow" 
+    x5-video-player-type="h5" /*启用H5播放器,是wechat安卓版特性*/
+    x5-video-player-fullscreen="true" /*全屏设置,设置为 true 是防止横屏*/
+    x5-video-orientation="portraint"/*播放器支付的方向,landscape横屏,portraint竖屏,默认值为竖屏*/
+    style="object-fit:fill">
+    </video> --> 
+</div>
+<!-- 视频播放按钮 -->
+<div id="btn" onclick="playcontr()"></div>
+<!-- 视频播放结束 -->
+<div id="video_end"></div>
+<script>
+
+
+var video_all = document.getElementById('video_all'),
+      video_box = document.getElementById('video_box'),
+      btn = document.getElementById('btn'),
+      video_end =  document.getElementById('video_end');
+var clientWidth = document.documentElement.clientWidth;
+var clientHeight = document.documentElement.clientHeight;
+video_all.pause();
+
+document.addEventListener('touchmove', function(e){e.preventDefault()}, false);
+
+
+function stylediv(divId){
+    divId.style.width = clientWidth + 'px';
+    divId.style.height = clientHeight + 'px'; 
+}
+function playcontr(){
+    if (isAndroid) {
+       video_all.style.width = '100%';
+       video_all.style.left = '0';       
+    }
+    video_box.style.display = "block";
+    video_all.play();
+    btn.style.display = "none";
+    video_end.style.display = "none";
+};
+// stylediv(video_box);
+stylediv(video_end);
+// 适配判断
+var u = navigator.userAgent; 
+var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端 
+var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端 
+
+
+// 暂停播放
+video_all.addEventListener('pause',function(){  
+    video_all.style.width = clientWidth + 'px';
+    btn.style.display = "block";
+})  
+
+
+// 播放结束
+video_all.addEventListener("ended",function(){
+    video_all.pause();
+    video_end.style.display = "block";
+    video_box.style.display = "none"; 
+});
+
+
+</script>
+</body>
+</html>
