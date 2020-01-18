@@ -15,7 +15,7 @@ app.use(async (ctx) => {
   ctx.status = 404
   ctx.body = `404 Not Found !!!`
 })
-app.listen(80)
+app.listen(3030)
 console.log('server run on port:3030')
 
 // require('./scripts/gulp_watch')
