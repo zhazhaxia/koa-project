@@ -31,7 +31,7 @@
     "ejs-compiled-loader": "^2.2.0",
     "ejs-html-loader": "^3.1.0",
     "ejs-loader": "^0.3.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "webpack": "^4.2.0",
     "yargs": "^11.0.0"
   }
